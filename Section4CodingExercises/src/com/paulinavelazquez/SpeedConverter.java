@@ -1,8 +1,9 @@
-package com.paulinavelazquez.section4;
+package com.paulinavelazquez;
 
 
 public class SpeedConverter {
     public static void main(String[] args) {
+
         printConversion(10.5);
     }
 
@@ -28,4 +29,6 @@ public class SpeedConverter {
         }
     }
 }
+
+
 
