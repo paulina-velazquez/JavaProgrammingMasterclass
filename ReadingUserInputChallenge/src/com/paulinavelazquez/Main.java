@@ -16,7 +16,7 @@ public class Main {
                 sum += userInput;
                 counter++;
             } else {
-                System.out.println("Invalid number");
+                System.out.println("Invalid counter");
             }
             scanner.nextLine(); // handle end of line (enter key)
         }
