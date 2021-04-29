@@ -8,6 +8,26 @@ public class BankAccount {
     private String email;
     private String phoneNumber;
 
+    public BankAccount() {
+        this("56789", 2.50, "Default name", "Default address",
+                "Default phone number");
+        System.out.println("Empty constructor called");
+    }
+
+    public BankAccount(String accountNumber, double balance, String customerName, String email,
+                       String phoneNumber) {
+        System.out.println("Account constructor with parameters called");
+        this.accountNumber = accountNumber;
+        this.balance = balance;
+        this.customerName = customerName;
+        this.email = email;
+        this.phoneNumber = phoneNumber;
+    }
+
+    public BankAccount(String customerName, String email, String phoneNumber) {
+        this("9999", 100.55, customerName, email, phoneNumber);
+    }
+
     public String getAccountNumber() {
         return accountNumber;
     }
@@ -55,7 +75,7 @@ public class BankAccount {
 
     public void withdrawal(int withdrawalAmount) {
         if (this.balance - withdrawalAmount < 0) {
-            System.out.println("Only " + balance + " available. Withdrawal not processed.");
+            System.out.println("Only $" + balance + " available. Withdrawal not processed.");
         } else {
             this.balance -= withdrawalAmount;
             System.out.println("Withdrawal of $" + withdrawalAmount + " processed. Remaining balance $" +

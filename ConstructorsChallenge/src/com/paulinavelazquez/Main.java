@@ -3,13 +3,14 @@ package com.paulinavelazquez;
 public class Main {
 
     public static void main(String[] args) {
-	    BankAccount bankAccount = new BankAccount();
 
-	    bankAccount.setAccountNumber("123456789");
-	    bankAccount.setBalance(500);
-	    bankAccount.setCustomerName("Paulina V");
-	    bankAccount.setEmail("myemail@domain.com");
-	    bankAccount.setPhoneNumber("(305) 121-4420");
+        BankAccount bankAccount = new BankAccount();
+
+        bankAccount.setAccountNumber("123456789");
+        bankAccount.setBalance(500);
+        bankAccount.setCustomerName("Paulina V");
+        bankAccount.setEmail("myemail@domain.com");
+        bankAccount.setPhoneNumber("(305) 121-4420");
 
         System.out.println("Bank account number: " + bankAccount.getAccountNumber());
         System.out.println("Customer's name: " + bankAccount.getCustomerName());
@@ -19,5 +20,29 @@ public class Main {
         System.out.println(" ");
         bankAccount.depositFunds(50);
         bankAccount.withdrawal(100);
+
+        BankAccount pausBankAccount = new BankAccount("12345", 0.00,
+                "Paulina V.", "myemail@domain.com", "(305) 212-8819");
+
+        System.out.println("Bank account number: " + pausBankAccount.getAccountNumber());
+        System.out.println("Customer's name: " + pausBankAccount.getCustomerName());
+        System.out.println("Customer's email: " + pausBankAccount.getEmail());
+        System.out.println("Customer's phone number: " + pausBankAccount.getPhoneNumber());
+        System.out.println("Bank account balance $" + pausBankAccount.getBalance());
+        System.out.println(" ");
+        pausBankAccount.depositFunds(50);
+        pausBankAccount.withdrawal(10);
+
+        BankAccount emptyAccount = new BankAccount();
+
+        System.out.println("Bank account number: " + emptyAccount.getAccountNumber());
+        System.out.println("Customer's name: " + emptyAccount.getCustomerName());
+        System.out.println("Customer's email: " + emptyAccount.getEmail());
+        System.out.println("Customer's phone number: " + emptyAccount.getPhoneNumber());
+        System.out.println("Bank account balance $" + emptyAccount.getBalance());
+
+        BankAccount allisonsAccount = new BankAccount("Allison", "allison@domain", "12345");
+        System.out.println(allisonsAccount.getAccountNumber() + " name " + allisonsAccount.getCustomerName());
+
     }
 }
