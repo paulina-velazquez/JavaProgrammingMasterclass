@@ -1,8 +1,6 @@
 package com.paulinavelazquez.challenge;
 
-
 public class BankAccount {
-
     private long accountNumber;
     private double balance;
     private String customerName;
@@ -92,4 +90,3 @@ public class BankAccount {
                 customerName + ", Balance = " + this.balance;
     }
 }
-
