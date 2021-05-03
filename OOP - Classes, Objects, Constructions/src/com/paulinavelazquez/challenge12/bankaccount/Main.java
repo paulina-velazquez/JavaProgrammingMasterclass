@@ -1,4 +1,4 @@
-package com.paulinavelazquez.challenge;
+package com.paulinavelazquez.challenge12.bankaccount;
 
 public class Main {
 
