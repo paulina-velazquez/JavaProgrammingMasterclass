@@ -3,6 +3,7 @@ package com.paulinavelazquez.challenge;
 public class Main {
 
     public static void main(String[] args) {
+
         BankAccount emmaAccount = new BankAccount();
 
         emmaAccount.setAccountNumber(12345);
