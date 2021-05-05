@@ -1,4 +1,4 @@
-package com.paulinavelazquez.challenge88;
+package com.paulinavelazquez.challenge88.inheritance;
 
 public class Car extends Vehicle {
 
@@ -27,10 +27,4 @@ public class Car extends Vehicle {
         move(speed, direction);
         System.out.println("Car.changeVelocity() - Velocity " + speed + " direction " + direction);
     }
-
-
-//    @Override
-//    public void stop() {
-//        //
-//    }
 }

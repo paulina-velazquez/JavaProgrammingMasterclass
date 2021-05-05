@@ -1,4 +1,4 @@
-package com.paulinavelazquez.challenge88;
+package com.paulinavelazquez.challenge88.inheritance;
 
 public class ModelS extends Car{
 
@@ -12,7 +12,6 @@ public class ModelS extends Car{
     }
 
     public void accelerate(int rate) {
-
         int newVelocity = getCurrentVelocity() + rate;
         if (newVelocity == 0) {
             stop();

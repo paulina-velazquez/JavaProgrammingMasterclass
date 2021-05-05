@@ -1,4 +1,4 @@
-package com.paulinavelazquez.challenge88;
+package com.paulinavelazquez.challenge88.inheritance;
 
 public class Vehicle {
 
