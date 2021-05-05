@@ -1,4 +1,4 @@
-package com.paulinavelazquez.composition;
+package com.paulinavelazquez.composition.code;
 
 public class Resolution {
 

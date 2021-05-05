@@ -1,8 +1,5 @@
 package com.paulinavelazquez.composition.code;
 
-import com.paulinavelazquez.composition.PC;
-import com.paulinavelazquez.composition.Resolution;
-
 public class Main {
 
     public static void main(String[] args) {

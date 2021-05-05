@@ -1,7 +1,5 @@
 package com.paulinavelazquez.composition.code;
 
-import com.paulinavelazquez.composition.Resolution;
-
 public class Monitor {
 
     private final String model;

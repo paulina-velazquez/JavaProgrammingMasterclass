@@ -1,4 +1,4 @@
-package com.paulinavelazquez.composition;
+package com.paulinavelazquez.composition.code;
 
 import com.paulinavelazquez.composition.code.Case;
 import com.paulinavelazquez.composition.code.Monitor;
