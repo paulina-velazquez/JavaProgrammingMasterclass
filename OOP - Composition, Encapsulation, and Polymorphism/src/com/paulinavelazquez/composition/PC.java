@@ -1,5 +1,9 @@
 package com.paulinavelazquez.composition;
 
+import com.paulinavelazquez.composition.code.Case;
+import com.paulinavelazquez.composition.code.Monitor;
+import com.paulinavelazquez.composition.code.Motherboard;
+
 public class PC {
 
     private Case theCase;

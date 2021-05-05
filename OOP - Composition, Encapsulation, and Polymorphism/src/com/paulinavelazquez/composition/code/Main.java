@@ -1,4 +1,7 @@
-package com.paulinavelazquez.composition;
+package com.paulinavelazquez.composition.code;
+
+import com.paulinavelazquez.composition.PC;
+import com.paulinavelazquez.composition.Resolution;
 
 public class Main {
 
