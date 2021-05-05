@@ -14,10 +14,21 @@ public class Office {
 
     public void walkInToRoom() {
         System.out.println("Opening the door and walking into office.");
-        theLamp.turnOn();
     }
 
     public void raiseDesk(int height) {
         theDesk.raiseDesk(height);
+    }
+
+    public Desk getTheDesk() {
+        return theDesk;
+    }
+
+    public Lamp getTheLamp() {
+        return theLamp;
+    }
+
+    public Bookshelf getBookshelf() {
+        return bookshelf;
     }
 }

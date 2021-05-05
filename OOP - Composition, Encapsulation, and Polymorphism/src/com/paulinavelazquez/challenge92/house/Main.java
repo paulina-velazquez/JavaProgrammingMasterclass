@@ -12,6 +12,7 @@ public class Main {
 
         Office theOffice = new Office(theDesk, theLamp, theBookshelf);
         theOffice.walkInToRoom();
+        theOffice.getTheLamp().turnOn();
         theOffice.raiseDesk(30);
     }
 }

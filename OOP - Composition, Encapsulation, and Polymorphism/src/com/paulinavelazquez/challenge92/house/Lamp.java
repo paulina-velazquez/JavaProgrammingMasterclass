@@ -15,4 +15,16 @@ public class Lamp {
     public void turnOn() {
         System.out.println("Turning on lamp");
     }
+
+    public String getBrand() {
+        return brand;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public int getHeight() {
+        return height;
+    }
 }
