@@ -1,4 +1,4 @@
-package com.paulinavelazquez.encapsulation.example;
+package com.paulinavelazquez.encapsulation.code;
 
 public class Main {
 
