@@ -1,4 +1,6 @@
-package com.paulinavelazquez.challenge94.printer;
+package com.paulinavelazquez.exercise38.printer;
+
+import com.paulinavelazquez.exercise38.printer.Printer;
 
 public class Main {
 

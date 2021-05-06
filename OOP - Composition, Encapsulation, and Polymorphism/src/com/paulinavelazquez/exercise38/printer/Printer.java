@@ -1,4 +1,4 @@
-package com.paulinavelazquez.challenge94.printer;
+package com.paulinavelazquez.exercise38.printer;
 
 public class Printer {
 
