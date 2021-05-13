@@ -17,5 +17,6 @@ public class Main {
         pausPhone.powerOn();
         pausPhone.callPhone(24565);
         pausPhone.answer();
+
     }
 }
