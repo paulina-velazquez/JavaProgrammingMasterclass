@@ -1,4 +1,4 @@
-package com.paulinavelazquez;
+package com.paulinavelazquez.innerclasses;
 
 public class Button {
     private String title;
