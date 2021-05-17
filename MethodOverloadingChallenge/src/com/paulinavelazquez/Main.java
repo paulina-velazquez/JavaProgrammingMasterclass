@@ -30,7 +30,6 @@ package com.paulinavelazquez;
  */
 
 public class Main {
-
     public static void main(String[] args) {
 
         double centimeters = calcFeetAndInchesToCentimeters(6, 0);
