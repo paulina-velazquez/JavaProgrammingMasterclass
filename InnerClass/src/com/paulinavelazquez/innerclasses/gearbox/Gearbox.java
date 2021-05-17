@@ -1,4 +1,4 @@
-package com.paulinavelazquez.innerclasses;
+package com.paulinavelazquez.innerclasses.gearbox;
 
 import java.util.ArrayList;
 

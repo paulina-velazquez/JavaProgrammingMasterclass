@@ -1,4 +1,4 @@
-package com.paulinavelazquez.innerclasses;
+package com.paulinavelazquez.innerclasses.gearbox;
 
 public class GearBoxMain {
     public static void main(String[] args) {

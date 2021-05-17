@@ -1,4 +1,4 @@
-package com.paulinavelazquez.innerclasses;
+package com.paulinavelazquez.innerclasses.button;
 
 import java.util.Scanner;
 
