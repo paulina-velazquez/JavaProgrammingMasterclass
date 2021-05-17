@@ -20,7 +20,6 @@ public class Button {
         this.onClickListener.onClick(this.title);
     }
 
-    // Inner class/interface
     public interface OnClickListener {
         public void onClick(String title);
     }

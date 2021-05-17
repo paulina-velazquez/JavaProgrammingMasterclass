@@ -29,7 +29,6 @@ public class ButtonMain {
                 System.out.println(title + " was clicked");
             }
         });
-
         listen();
     }
 

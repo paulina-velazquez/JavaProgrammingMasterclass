@@ -12,7 +12,6 @@ public class GearBoxMain {
 
         // Code works with private inner class
         Gearbox mcLaren = new Gearbox(6);
-
         mcLaren.operateClutch(true);
         mcLaren.changeGear(1);
         mcLaren.operateClutch(false);
