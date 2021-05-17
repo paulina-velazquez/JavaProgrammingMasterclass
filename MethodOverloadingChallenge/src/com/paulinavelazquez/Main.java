@@ -1,18 +1,19 @@
 package com.paulinavelazquez;
 
+
 /**
  * Create a method called calcFeetAndInchesToCentimeters
  * It needs to have two parameters.
  * feet is the first parameter, inches is the 2nd parameter
- * <p>
+ *
  * You should validate that the first parameter feet is >= 0
  * You should validate that the 2nd parameter inches is >=0 and <=12
  * return -1 from the method if either of the above is not true
- * <p>
+ *
  * If the parameters are valid, then calculate how many centimetres
  * comprise the feet and inches passed to this method and return
  * that value.
- * <p>
+ *
  * Create a 2nd method of the same name but with only one parameter
  * inches is the parameter
  * validate that its >=0
